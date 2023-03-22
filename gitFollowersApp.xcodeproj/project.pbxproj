@@ -70,22 +70,54 @@
 		2215D42A29C8805000A9DD5F /* gitFollowersApp */ = {
 			isa = PBXGroup;
 			children = (
+				228606C429CB0F53006193E8 /* Support */,
+				228606C329CB0EED006193E8 /* Extension */,
+				228606C229CB0EC0006193E8 /* Custom Views */,
+				228606C129CB0E8C006193E8 /* Screens */,
+			);
+			path = gitFollowersApp;
+			sourceTree = "<group>";
+		};
+		228606C129CB0E8C006193E8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				22BB5FBE29C8E86000A87A77 /* SearchVC.swift */,
+				22BB5FC029C8E87C00A87A77 /* FavoriteListVC.swift */,
+				22BB5FC629C9A84500A87A77 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		228606C229CB0EC0006193E8 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				22E31F9829CAEC54000081AB /* GFAlertVC.swift */,
+				22BB5FC229C8F5FC00A87A77 /* GFButton.swift */,
+				22BB5FC429C8FA4F00A87A77 /* GFTextField.swift */,
+				22E31F9429CAEA52000081AB /* GFTitleLabel.swift */,
+				22E31F9629CAEB80000081AB /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		228606C329CB0EED006193E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				22E31F9A29CAF14B000081AB /* ViewController+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		228606C429CB0F53006193E8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				2215D42B29C8805000A9DD5F /* AppDelegate.swift */,
 				2215D42D29C8805000A9DD5F /* SceneDelegate.swift */,
 				2215D43429C8805000A9DD5F /* Assets.xcassets */,
 				2215D43629C8805000A9DD5F /* LaunchScreen.storyboard */,
 				2215D43929C8805000A9DD5F /* Info.plist */,
-				22BB5FBE29C8E86000A87A77 /* SearchVC.swift */,
-				22BB5FC029C8E87C00A87A77 /* FavoriteListVC.swift */,
-				22BB5FC629C9A84500A87A77 /* FollowerListVC.swift */,
-				22BB5FC229C8F5FC00A87A77 /* GFButton.swift */,
-				22BB5FC429C8FA4F00A87A77 /* GFTextField.swift */,
-				22E31F9429CAEA52000081AB /* GFTitleLabel.swift */,
-				22E31F9629CAEB80000081AB /* GFBodyLabel.swift */,
-				22E31F9829CAEC54000081AB /* GFAlertVC.swift */,
-				22E31F9A29CAF14B000081AB /* ViewController+Ext.swift */,
 			);
-			path = gitFollowersApp;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gitFollowersApp/Info.plist;
+				INFOPLIST_FILE = gitFollowersApp/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -334,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gitFollowersApp/Info.plist;
+				INFOPLIST_FILE = gitFollowersApp/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
